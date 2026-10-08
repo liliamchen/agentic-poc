@@ -1,0 +1,5 @@
+/* 只留这三行。主题变量由 tailwind.config.js 里的 CloudAI 插件注入，往这里手写一份
+   `:root { --primary: … }` 会得到两个真源，且覆盖顺序随构建变化。 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
